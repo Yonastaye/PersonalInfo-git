@@ -10,6 +10,7 @@ public class PersonalInformation {
     int age;
     String MaritialStatus;
     String AcadamicStatus;
+    String email;
 
     public void SetpersonalInfo() {
         System.out.println("insert info \n");
@@ -18,6 +19,7 @@ public class PersonalInformation {
         LastName = sn.next();
         sex = sn.next();
         age = sn.nextInt();
+        email=sn.next();
 
     }
 
@@ -27,6 +29,7 @@ public class PersonalInformation {
         System.out.println("Lname" + " " + LastName);
         System.out.println("sex" + " " + sex);
         System.out.println("age" + " " + age);
+             System.out.println("email"+" "+email);
 
     }
 
